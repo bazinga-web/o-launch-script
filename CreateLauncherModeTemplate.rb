@@ -31,6 +31,8 @@ def main
       generate_launcher_mode('e', [], [{ 'shell_command' => "open -a 'Microsoft Edge.app'" }]),
       generate_launcher_mode('t', [], [{ 'shell_command' => "open -a 'Typora.app'" }]),
       generate_launcher_mode('v', [], [{ 'shell_command' => "open -a 'IINA.app'" }]),
+      generate_launcher_mode('x', [], [{ 'shell_command' => "open -a 'Tabby.app'" }]),
+      generate_launcher_mode('f', [], [{ 'shell_command' => "open -a 'Finder.app'" }]),
     ].flatten,
   }
 
