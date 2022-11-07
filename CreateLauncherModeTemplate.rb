@@ -27,6 +27,7 @@ def main
       generate_launcher_mode('i', [], [{ 'shell_command' => "open -a 'iTerm.app'" }]),
       generate_launcher_mode('w', [], [{ 'shell_command' => "open -a 'WeChat.app'" }]),
       generate_launcher_mode('g', [], [{ 'shell_command' => "open -a 'Google Chrome.app'" }]),
+      generate_launcher_mode('b', [], [{ 'shell_command' => "open -a 'Brave Browser.app'" }]),
       generate_launcher_mode('d', [], [{ 'shell_command' => "open -a 'DingTalk.app'" }]),
       generate_launcher_mode('e', [], [{ 'shell_command' => "open -a 'Microsoft Edge.app'" }]),
       generate_launcher_mode('t', [], [{ 'shell_command' => "open -a 'Typora.app'" }]),
