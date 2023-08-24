@@ -22,18 +22,16 @@ def main
   data = {
     'description' => 'O-Launcher By tsq',
     'manipulators' => [
-      generate_launcher_mode('n', [], [{ 'shell_command' => "open -a 'notion.app'" }]),
       generate_launcher_mode('c', [], [{ 'shell_command' => "open -a 'Visual Studio Code.app'" }]),
       generate_launcher_mode('i', [], [{ 'shell_command' => "open -a 'iTerm.app'" }]),
-      generate_launcher_mode('w', [], [{ 'shell_command' => "open -a 'WeChat.app'" }]),
       generate_launcher_mode('g', [], [{ 'shell_command' => "open -a 'Google Chrome.app'" }]),
       generate_launcher_mode('b', [], [{ 'shell_command' => "open -a 'Brave Browser.app'" }]),
       generate_launcher_mode('d', [], [{ 'shell_command' => "open -a 'DingTalk.app'" }]),
-      generate_launcher_mode('e', [], [{ 'shell_command' => "open -a 'Microsoft Edge.app'" }]),
-      generate_launcher_mode('t', [], [{ 'shell_command' => "open -a 'Typora.app'" }]),
-      generate_launcher_mode('v', [], [{ 'shell_command' => "open -a 'IINA.app'" }]),
-      generate_launcher_mode('x', [], [{ 'shell_command' => "open -a 'Tabby.app'" }]),
+      generate_launcher_mode('e', [], [{ 'shell_command' => "open -a 'Microsoft Edge Dev.app'" }]),
+      generate_launcher_mode('t', [], [{ 'shell_command' => "open -a 'MarkText.app'" }]),
+      generate_launcher_mode('x', [], [{ 'shell_command' => "open -a 'Xcode.app'" }]),
       generate_launcher_mode('f', [], [{ 'shell_command' => "open -a 'Finder.app'" }]),
+      generate_launcher_mode('w', [], [{ 'shell_command' => "open -a 'WeChat.app'" }]),
     ].flatten,
   }
 
